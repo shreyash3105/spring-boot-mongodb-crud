@@ -32,11 +32,11 @@ or
 Run jar file from below path with given command
 > **```java -jar ~/path-to-spring-boot-mongodb-crud/target/spring-boot-mongodb-0.0.1-SNAPSHOT.jar```**
 Or
-> run main method from `SpringBootMongoDBApplication.java` as spring boot application.  
+> run main method from `SpringBootMongodbCrudApplication.java` as spring boot application.  
 
 ||
 |  ---------    |
-| **_Note_** : In `SpringBootMongoDBApplication.java` class we have autowired both SuperHero and Employee repositories. <br/>If there is no record present in DB for any one of that module class (SuperHero), static data is getting inserted in DB from `Utils.java` class when we are starting the app for the first time.| 
+| **_Note_** : In `SpringBootMongodbCrudApplication.java` class we have autowired both SuperHero and Employee repositories. <br/>If there is no record present in DB for any one of that module class (SuperHero), static data is getting inserted in DB from `Utils.java` class when we are starting the app for the first time.| 
 
 
 
