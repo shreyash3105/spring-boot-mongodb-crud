@@ -62,10 +62,8 @@ Or
 
     **src/main/resources/application.properties**
      ```
-    spring.data.mongodb.uri = mongodb+srv://root:Mongo%40123@cluster0.mkdxexl.mongodb.net/?retryWrites=true&w=majority
-    spring.data.mongodb.database=spring_boot_mongo_app
-    spring.jackson.default-property-inclusion=NON_NULL
-    #logging.level.ROOT=DEBUG  
+    spring.data.mongodb.uri = 
+    spring.data.mongodb.database = spring_boot_mongo_app
      ```
    
    
